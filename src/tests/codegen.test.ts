@@ -15,3 +15,4 @@ describe('TypeScriptTypeGenerator', () => {
     assert.ok(tsCode.includes('price: number;'), 'Should map price to number');
   });
 });
+

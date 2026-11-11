@@ -30,3 +30,4 @@ export interface RouteMatch {
   id?: string;
   isCollection: boolean;
 }
+
