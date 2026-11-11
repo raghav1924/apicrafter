@@ -61,4 +61,10 @@ describe('MemoryStore CRUD & State Management', () => {
     const users = store.getAll('users') || [];
     assert.strictEqual(users.length, 5);
   });
+
+  it('returns null when querying non-existent collection or missing ID', () => {
+    const store = new MemoryStore();
+    assert.strictEqual(store.getAll('ghost_collection'), null);
+    assert.strictEqual(store.getById('users', 'non_existent_id'), null);
+  });
 });
