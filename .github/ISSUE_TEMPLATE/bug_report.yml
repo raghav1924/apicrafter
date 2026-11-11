@@ -1,0 +1,21 @@
+name: Bug Report
+description: Create a report to help improve ApiCrafter
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for filing a bug report for ApiCrafter!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the bug encountered and expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: request-sample
+    attributes:
+      label: Request or Schema Sample
+      description: Sample cURL or schema configuration triggering the issue.
+    validations:
+      required: false
