@@ -1,0 +1,16 @@
+{
+  "name": "sample_ecommerce",
+  "version": "1.0.0",
+  "collections": [
+    {
+      "name": "customers",
+      "fields": [
+        { "name": "id", "type": "id" },
+        { "name": "name", "type": "string" },
+        { "name": "email", "type": "email" },
+        { "name": "city", "type": "string" }
+      ],
+      "seedCount": 3
+    }
+  ]
+}

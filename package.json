@@ -1,0 +1,37 @@
+{
+  "name": "apicrafter",
+  "version": "1.0.0",
+  "description": "Developer-first OpenAPI & Contract Mock Server, Stateful In-Memory REST Engine, Chaos Latency Simulator & Visual Studio.",
+  "main": "dist/index.js",
+  "bin": {
+    "apicrafter": "./dist/bin.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "start": "node dist/bin.js",
+    "test": "node --test dist/tests/**/*.test.js"
+  },
+  "keywords": [
+    "mock",
+    "api-mock",
+    "rest",
+    "openapi",
+    "stateful",
+    "chaos-engineering",
+    "latency-simulator",
+    "frontend-tools",
+    "developer-tools",
+    "cli"
+  ],
+  "author": "Jatin Sharma <raghavjatin245@gmail.com> (https://jatinsh.netlify.app/)",
+  "homepage": "https://jatinsh.netlify.app/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raghav1924/apicrafter.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
