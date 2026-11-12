@@ -19,3 +19,4 @@ body:
       description: Sample cURL or schema configuration triggering the issue.
     validations:
       required: false
+

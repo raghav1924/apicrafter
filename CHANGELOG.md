@@ -14,3 +14,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Automated TypeScript interface code generator (`apicrafter types --out types.ts`).
 - Dynamic realistic data faker for user profiles, product catalogs, and transactional order histories.
 - Zero external runtime dependencies.
+
