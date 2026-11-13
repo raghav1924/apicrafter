@@ -46,3 +46,4 @@ Frontend applications often break under real-world conditions (slow 3G, server t
 - Loading skeletons and spinners
 - Retry mechanisms with exponential backoff
 - Error boundaries and toast fallbacks
+

@@ -22,3 +22,4 @@ body:
       description: How should the mock server or type generator behave?
     validations:
       required: true
+
