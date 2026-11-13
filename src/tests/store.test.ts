@@ -67,4 +67,20 @@ describe('MemoryStore CRUD & State Management', () => {
     assert.strictEqual(store.getAll('ghost_collection'), null);
     assert.strictEqual(store.getById('users', 'non_existent_id'), null);
   });
+
+  it('allows dynamic registration of new custom collections', () => {
+    const store = new MemoryStore();
+    store.registerCollection({
+      name: 'invoices',
+      fields: [
+        { name: 'id', type: 'id' },
+        { name: 'amount', type: 'number' },
+        { name: 'status', type: 'string' },
+      ],
+      seedCount: 3,
+    });
+    const invoices = store.getAll('invoices');
+    assert.ok(invoices);
+    assert.strictEqual(invoices?.length, 3);
+  });
 });
