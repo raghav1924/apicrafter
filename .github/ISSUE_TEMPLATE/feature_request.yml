@@ -1,0 +1,24 @@
+name: Feature Request
+description: Suggest an enhancement or new feature for ApiCrafter
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve ApiCrafter!
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your request related to a REST mock or chaos engineering scenario?
+      description: Explain what scenario you want to test.
+      placeholder: When simulating network packet loss or flaky endpoints...
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the proposed feature or chaos injector
+      description: How should the mock server or type generator behave?
+    validations:
+      required: true
