@@ -15,3 +15,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Dynamic realistic data faker for user profiles, product catalogs, and transactional order histories.
 - Zero external runtime dependencies.
 
+
+## [1.1.0] - 2026-11-15
+### Added
+- Chaos engineering latency and error injection documentation.
+- Stateful in-memory entity mutation guides.
+- TypeScript codegen documentation and OpenAPI import guidelines.
