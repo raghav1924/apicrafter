@@ -21,3 +21,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Chaos engineering latency and error injection documentation.
 - Stateful in-memory entity mutation guides.
 - TypeScript codegen documentation and OpenAPI import guidelines.
+
+## [1.2.0] - 2026-11-16
+### Added
+- Master design system documentation (Cyberpunk, Bento Grid).
+- Frontend chaos resilience patterns and exponential backoff testing.
+- OpenAPI contract testing guide and CLI cheatsheet.
