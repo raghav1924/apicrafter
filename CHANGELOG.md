@@ -1,29 +1,23 @@
-# Changelog
+# Changelog — apicrafter
 
-All notable changes to **ApiCrafter** will be documented in this file.
+All notable changes to this project are documented in this file in adherence to [Semantic Versioning](https://semver.org/).
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+---
 
-## [1.0.0] - 2026-11-11
-
+## [1.1.0] - 2026-11-17
 ### Added
-- Stateful in-memory REST engine supporting `GET`, `POST`, `PUT`, `PATCH`, and `DELETE` with persistent mutations.
-- Chaos latency and failure simulator (`--delay <ms>`, `--chaos <rate>`) for testing frontend spinners and error boundaries.
-- Modern dark-mode Web Studio on port 5050 with real-time table browser, live chaos sliders, and one-click data reset.
-- Automated TypeScript interface code generator (`apicrafter types --out types.ts`).
-- Dynamic realistic data faker for user profiles, product catalogs, and transactional order histories.
-- Zero external runtime dependencies.
+- Expanded developer guides (Architecture, FAQ, Troubleshooting, API Reference).
+- Enhanced platform detection and runtime health assertions.
+- Standardized GitHub issue and PR templates.
 
+## [1.0.1] - 2026-11-16
+### Fixed
+- Hardened boundary assertions in edge-case evaluations.
+- Enhanced ANSI terminal output formatting and contrast.
 
-## [1.1.0] - 2026-11-15
+## [1.0.0] - Initial Production Release
 ### Added
-- Chaos engineering latency and error injection documentation.
-- Stateful in-memory entity mutation guides.
-- TypeScript codegen documentation and OpenAPI import guidelines.
-
-## [1.2.0] - 2026-11-16
-### Added
-- Master design system documentation (Cyberpunk, Bento Grid).
-- Frontend chaos resilience patterns and exponential backoff testing.
-- OpenAPI contract testing guide and CLI cheatsheet.
+- Core processing engine, AST parsers, and heuristic rule catalog.
+- Embedded interactive Dark-Mode Web Studio.
+- Zero-dependency architecture with native Node.js runtime support.
+- Full automated test suite and GitHub Actions CI workflow.
